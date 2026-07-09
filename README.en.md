@@ -38,7 +38,7 @@ CGP comes in two versions with different underlying premises. **Pick the one tha
 |---|---|---|
 | Intended for | Projects built by one person or a small team | Contexts where multiple stakeholders may hold genuinely conflicting values (government, local communities, decisions involving multiple parties, etc.) |
 | Core principle | Keep one dialogue persona; prioritize grounding in fact | Never resolve conflicts away — structure and preserve them |
-| File | [`primer/cgp-primer.en.md`](./primer/cgp-primer.en.md) | [`primer/cgp-primer-public.en.md`](./primer/cgp-primer-public.en.md) |
+| File | [`Primer/cgp-primer-parsonal.en.md`](./Primer/cgp-primer.en.md) | [`Primer/cgp-primer-public.en.md`](./Primer/cgp-primer-public.en.md) |
 
 If you're unsure which one applies, ask yourself: "Can a single builder (me) make the final call on this project?" If yes, use the personal-use version. If judgments could genuinely differ across multiple stakeholders, use the public-interest version.
 
@@ -59,10 +59,10 @@ Start by using one of these as-is to build something. Then, once you're comforta
 
 ## Contents
 
-- [`primer/cgp-primer.ja.md`](./primer/cgp-primer.ja.md) — Personal-use primer (Japanese)
-- [`primer/cgp-primer.en.md`](./primer/cgp-primer.en.md) — Personal-use primer (English)
-- [`primer/cgp-primer-public.ja.md`](./primer/cgp-primer-public.ja.md) — Primer for high-publicness cases (Japanese)
-- [`primer/cgp-primer-public.en.md`](./primer/cgp-primer-public.en.md) — Primer for high-publicness cases (English)
+- [`Primer/cgp-primer-parsonal.ja.md`](./Primer/cgp-primer-parsonal.ja.md) — Personal-use primer (Japanese)
+- [`Primer/cgp-primer-parsonal.en.md`](./Primer/cgp-primer-parsonal.en.md) — Personal-use primer (English)
+- [`Primer/cgp-primer-public.ja.md`](./Primer/cgp-primer-public.ja.md) — Primer for high-publicness cases (Japanese)
+- [`Primer/cgp-primer-public.en.md`](./Primer/cgp-primer-public.en.md) — Primer for high-publicness cases (English)
 
 ## Roadmap
 
