@@ -3,7 +3,7 @@
 A primer for "CGP (Core Growth Prompting)" — a method used by someone with zero coding ability to design and implement a patent-pending system through dialogue with an AI alone.
 
 The full background story is written up (in Japanese, for now) here:
-👉 [How a 40-something office worker who can't code built a patent-worthy system](note article URL here)
+👉 [How a 40-something office worker who can't code built a patent-worthy system](https://note.com/ideal_dog1611/n/n2edd4c25daa1?app_launch=false)
 
 ## What this is
 
