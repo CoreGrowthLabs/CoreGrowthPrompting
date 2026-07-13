@@ -4,6 +4,6 @@
 
 Stop your AI from hallucinating design decisions. A battle-tested methodology for non-coders building real systems through AI pair programming — with a built-in 'break my own design' verification loop.
 
-📄 詳しい経緯はこちら / Background story: [https://note.com/ideal_dog1611/n/n2edd4c25daa1?sub_rt=share_pw]
+📄 [詳しい経緯はこちら / Background story (JP)](https://note.com/ideal_dog1611/n/n2edd4c25daa1?sub_rt=share_pw) / [Background story (EN)](英語版記事URL)
 
 JP [日本語版はこちら / Japanese] GB [English version here]
