@@ -6,4 +6,4 @@ Stop your AI from hallucinating design decisions. A battle-tested methodology fo
 
 📄 [詳しい経緯はこちら / Background story (JP)](https://note.com/ideal_dog1611/n/n2edd4c25daa1?sub_rt=share_pw) / [Background story (EN)](英語版記事URL)
 
-JP [日本語版はこちら / Japanese] GB [English version here]
+JP [日本語版はこちら / Japanese]()GB [English version here]()
