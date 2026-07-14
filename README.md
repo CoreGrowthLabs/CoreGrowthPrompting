@@ -4,6 +4,6 @@
 
 Stop your AI from hallucinating design decisions. A battle-tested methodology for non-coders building real systems through AI pair programming — with a built-in 'break my own design' verification loop. No high-end hardware required — works on smartphones and low-spec PCs (tested on a Core i5-7200U with 8GB RAM).
 
-📄 [詳しい経緯はこちら / Background story (JP)](https://note.com/ideal_dog1611/n/n2edd4c25daa1?sub_rt=share_pw) / [Background story (EN)](英語版記事URL)
+📄 [詳しい経緯はこちら / Background story (JP)](https://note.com/ideal_dog1611/n/n2edd4c25daa1?sub_rt=share_pw) / [Background story (EN)](https://note.com/ideal_dog1611/n/n91fb6299798a)
 
 JP [日本語版はこちら / Japanese](README.ja.md)GB [English version here](README.en.md)
