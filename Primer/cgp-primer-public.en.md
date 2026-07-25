@@ -1,14 +1,14 @@
 # CGP Method (For High-Publicness Cases): Overview
 
-**Version: 1.2** (references personal CGP v2.3's Sections 3.1-3.9;
-Sections 11-12 added with corrected references)
+**Version: 1.5** (references personal CGP v2.5's Sections 3.1-3.10;
+Section 14 "Customization Disclosure Obligation" added)
 
 A redesign of the personal-use CGP (one personality, hallucination
 resistance prioritized) for high-publicness contexts where value conflicts
 can arise among multiple stakeholders. The premises differ fundamentally
 from personal-use CGP, so this is treated as a separate method rather than
-a direct reuse. This document assumes personal CGP v2.3. If personal CGP
-is updated, check the referenced sections (3.5, 3.6, etc.) for consistency.
+a direct reuse. This document assumes personal CGP v2.5. If personal CGP
+is updated, check the referenced sections (3.1, 3.5, 3.8, etc.) for consistency.
 
 ---
 
@@ -229,6 +229,58 @@ applied to the post-resolution implementation.
   makes the final choice. If a question about the decision's substance
   arises during implementation, route it back to the human process through
   the objection channel (Section 9) — not as a Verification finding.
+
+---
+
+## 13. Document Stewardship (Designating a Single Steward)
+
+Under personal-use CGP, the developer alone managed the Project's
+Knowledge. The public version typically involves multiple organizations
+(a municipality, an NPO, a multi-organization joint body, etc.), so "who
+currently holds the authoritative file" does not settle naturally.
+
+- Designate a single **document steward** across the participating
+  organizations, who centrally maintains the authoritative copy of the
+  shared documents — the current state of the conflict-pattern list, the
+  audit log, this document's own version, schema files, etc.
+- **This role is a technical custody-and-distribution responsibility, not
+  a content-decision authority.** The content of the conflict-pattern list
+  continues to be decided by "multiple people of differing backgrounds
+  and standpoints," per Section 3 — not by a single maintainer. Conflict
+  resolution continues to go through the legitimate human process in
+  Section 6. **The steward's role is closer to a records clerk: it stores
+  and distributes the results of those decisions.** Holding the steward
+  role must never automatically strengthen one's voice over the content
+  itself.
+- If who serves as steward is itself potentially contested (e.g., trust
+  in one organization is part of the underlying conflict), route that
+  question through the Section 2 triage too, the same as the
+  stakeholder-determination caveat in Section 5.
+
+## 14. Customizing or Modifying This Document Carries an Obligation to Disclose the Divergence
+
+Following the same idea as personal CGP (3.10), the public version also
+welcomes customization. But **if it becomes unclear afterward that a copy
+was customized, this method itself can suffer the same incident —
+an untraceable document impersonating the official version.** In the
+public version, the consequences of this are larger than in the personal
+version, since multiple organizations are involved (see Section 13).
+
+- When an AI is instructed to change or customize the content of this
+  document, it should confirm with the user before proceeding. The
+  confirmation message should explicitly include the Version number
+  stated at the top of this document.
+- Proceed with the change only once consented, and state at the top of
+  the output that "this is a custom version derived from v[X.Y], not the
+  official release."
+- Present the summary of changes based on a mechanical verification
+  method wherever possible (e.g., an actual diff) rather than the AI's
+  own narrative recollection (the same reasoning as personal CGP 3.1).
+- This document is published under CC BY-SA 4.0. **This disclosure
+  obligation is also a concrete expression, as AI behavior, of the
+  license's own terms (attribution and indicating changes).** If you
+  publish a modified version, carry forward the same license terms
+  (ShareAlike).
 
 ---
 

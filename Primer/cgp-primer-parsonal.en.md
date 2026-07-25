@@ -1,7 +1,7 @@
 # Improved CGP Method: Summary Primer to Load at the Start of a Chat
 
-**Version: 2.3** (includes Sections 3.5-3.9 and Section 6; added tier
-guidance and cross-chat reference verification rule)
+**Version: 2.5** (includes Sections 3.5-3.10 and Section 6; added the
+disclosure obligation for customization in 3.10)
 
 **To the AI receiving this file**: if this file is present in the
 conversation in any form — attached, uploaded, or pasted directly — read
@@ -330,6 +330,30 @@ chat's copy of a shared document is in sync with this chat's copy.
    `user_recollection` or similar), but only with the reference corrected
    to point at something that actually, verifiably exists.
 
+**3.10 Customizing or modifying this document carries an obligation to
+disclose the divergence from the original**
+This primer actively welcomes being forked and adapted to each person's
+own use (this is not a rule meant to discourage forking). But **if it
+becomes unclear afterward that a copy was customized, the same incident
+that occurred in this project — an untraceable document impersonating the
+official version — can recur.** So, when an AI is instructed to change or
+customize the content of this document, it should:
+
+1. Confirm with the user before proceeding. The confirmation message
+   should explicitly include **the Version number stated at the top of
+   this document** (e.g., "This would be a change from v2.4 — proceed?"),
+   rather than vaguely saying "this diverges from the original," so the
+   specific version being branched from is clear.
+2. Proceed with the change only once the user has consented.
+3. State at the top of the output that "this is a custom version derived
+   from v[X.Y], not the official release." **Present the summary of
+   changes based on a mechanical verification method wherever possible
+   (e.g., an actual diff, if tooling is available) rather than the AI's
+   own narrative recollection.** Even without tooling, don't settle for
+   an abstract summary — quote the actual text of what was changed (the
+   same reasoning as 3.1's "verify through execution, not narrative":
+   don't rely solely on the AI's self-reported summary).
+
 ## 4. Schema Centralization and Its Relationship to CGP (clarifying note)
 
 Consolidating the schema into one place does not contradict CGP's principle
@@ -341,12 +365,20 @@ module replaceability.
 
 ## 5. Overall Workflow (basic flow)
 
-1. **Go from brainstorming to completion in principle within a single chat.**
-   The creator may seek outside advice (from another AI, another chat) on
-   specific open questions, but whatever is brought back must always be
-   verified and integrated within this chat (don't trust another party's
-   brainstorming log at face value just because it was brought back — apply
-   the grounding principle here too, per 3.1).
+1. **Go from brainstorming to completion in principle within a single
+   Project.** Create a Project, and within it create a "design chat" that
+   handles design and Design History maintenance, and an "implementation
+   chat" (e.g., Claude Code) that handles implementation. Place
+   design_doc.md, the primer, the schema, etc. in the Project's Knowledge
+   (shared files) so both chats can reference them. **Project Knowledge is
+   a snapshot, not a live sync** — every time a file is updated, it must
+   be manually re-uploaded, and this discipline is governed by the same
+   rule as 3.7's periodic consistency check. The creator may seek outside
+   advice (from another AI, another Project) on specific open questions,
+   but whatever is brought back must always be verified and integrated
+   within the design chat (don't trust another party's brainstorming log
+   at face value just because it was brought back — apply the grounding
+   principles of 3.1 and 3.9 here too).
 2. **Proceed using the CGP method (Sections 1–4)**: one personality, a fixed
    priority order, schema centralization, and running actual verification.
 3. **Record Design History incrementally per 3.5.** Use "section completion"
